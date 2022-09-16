@@ -1,0 +1,111 @@
+1. In the below elements which of them are values or an expression? eg:- values can be
+integer or string and expressions will be mathematical operators.
+
+Solution:-
+
+*       -- Expression
+
+'hello' -- Value
+
+-87.8   --Value
+-       --Expression
+
+/       --Expression
+
++       --Expression
+
+6       --Value
+
+2. What is the difference between string and variable?
+
+Solution:-
+
+   String :
+      1. This is data or piece of information.
+      2. Variable is used to store this data.
+      
+   Variable :
+      1. This is used to store a data / Information.
+      2. We can define in simple words as an empty space.
+      
+3. Describe three different data types.
+
+Solution :-
+   Data types : Every value / data has its specific type, which is known as data types.
+   Eg : Numbers , String , List , Tuple , Set , Dictionary
+   
+   String :
+       1. A string is a sequence of characters. 
+       2. It can be created simply by enclosing characters in quotes.
+       3. It is immutable sequence of data
+      Eg . "Kumar" , "1234" ,'K12sdf'
+      
+   List :
+      1. Lists are used to store multiple items in a single variable.These are created using square brackets
+      2. List items are ordered, changeable, and allow duplicate values.
+      3. List items are indexed, the first item has index [0], the second item has index [1] etc.Lists are majorly used everywhere.
+     Eg. [12,345,76.98,"Naveena",'km546']
+  
+  Dictionary :
+      1. Here data stored as a key -value pair , where key should be unique.
+      2. A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+      3. Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
+      4. Dictionaries are changeable, meaning that we can change, add or remove items after the dictionary has been created.
+    Eg. {'Name' : "Preethi" , "Mail_Id" : 'abcd123@ineuron.com','Salary' : 5000}
+    
+4. What is an expression made up of? What do all expressions do? 
+
+Solution:-
+
+  Expression :
+      1. Expression is a combination of operators and operands which gives a value as output.
+      2. Operators refers to +,-,*,% and so on.. ,Where as operands are values.
+    
+    Expressions perform operations by using operators and operands, which provides value as output.
+    For Example : A + B = C
+           Here A,B are operand, whereas + , = are operands and C is the output.
+           We can have similar examples like,
+              [a*a , a+a ,a%a] , (a+b ,a**3)
+              
+5. This assignment statements, like spam = 10. What is the difference between an
+expression and a statement?
+
+Solution:-
+     
+    1. An expression can be defined as any element that evaluates some values.Statements represent a motion or command e.g print statements,        mission statements. Expressions need to be evaluated.
+    2. An expression is any series of symbols that represents a value. For example, 2.9, a + 5, (3 + 5) / 4.
+    3. Instructions are something that an interpreter can execute are known as statements.
+
+  Example : Print("This is completely new") --- Statement
+            Spam = 10 --- It's a statement because it has nothing to give as output.
+            
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+
+Solution :
+   bacon = 22
+   
+7. What should the values of the following two terms be?
+
+'spam' + 'spamspam' --- 'spamspamspam'
+'spam' * 3          --- 'spamspamspam'
+
+8. Why is eggs a valid variable name while 100 is invalid?
+
+Solution:
+   There are rules for naming a variable .One of the rule includes that , a variable name cannot start with Number.That's why 100 is invalid where as eggs is valid variable.
+   
+9. What three functions can be used to get the integer, floating-point number, or string
+version of a value?
+
+Solution:-
+    The int(), float(), and str() functions will evaluate to the integer, floating-point number, and string versions of the value passed to them.
+    
+10. Why does this expression cause an error? How can you fix it?
+      'I have eaten' + 99 + 'burritos'
+      
+Solution :-
+    The expression causes an error because 99 is an integer, and only strings can be concatenated to other strings with the + operator.
+    The correct way is I have eaten ' + str(99) + ' burritos'.
+      
